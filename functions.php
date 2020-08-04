@@ -16,5 +16,12 @@ function my_enqueue_theme_js() {
     time(), // Change this to null for production
     true
   );
+
+  wp_enqueue_script(
+    'my-theme-frontend',
+    get_stylesheet_directory_uri(), '/build/index.js',
+    ['wp-element'],
+    time() // For production use wp_get_theme() -> get('Version')
+  )
 }
 ?>
