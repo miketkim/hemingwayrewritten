@@ -9,5 +9,74 @@
  Text Domain:  my-child-theme
 */
 
+.wpd-comment-author {
+	display: none;
+}
 
-/* =Theme customization starts here
+.wpd-comment .wpd-reply-to a {
+	display: none;
+}
+
+/* // HENTRY  */
+.hentry {
+	border-bottom: unset;
+	margin-bottom: unset;
+	padding-bottom: unset;
+	position: unset;
+}
+
+
+/* Word press Admin Bar at the top of screen */
+#wpadminbar {
+	display: none;
+}
+
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-header__messages {
+	display: none;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-b3--min-medium {
+	display: none;
+}
+
+/* Gets rid of gray bar under post */
+.post-navigation {
+	display: none !important;
+}
+
+/* Sets all posts to black */
+a {
+	color: black !important;
+}
+
+/* Gets rid of date post was created */
+.posted-date {
+	display: none !important;
+}
+
+/* Gets rid of wpd account settings for logged in user */
+#wp-admin-bar-my-account {
+	display: none !important;
+}
+#ab-pending-notifications {
+	display: none !important;
+}
+#wpnt-notes-unread-count {
+	display: none !important;
+}
+
+
+/* Google and iCal export links, and event details hidden */
+.tribe-events-event-meta { 
+	display: none !important;
+}
+.tribe-events-cal-links { 
+	display: none !important;
+}
+.tribe-events-event-meta {
+	display: none !important;
+}
+.tribe-events-content {
+	display: none !important;
+}
